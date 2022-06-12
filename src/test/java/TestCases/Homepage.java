@@ -16,6 +16,7 @@ public class Homepage extends initialize {
 		driver=initializedriver();
 		
 		driver.get("https://www.google.com");
+		driver.findElement(By.xpath("abc")).sendKeys("1234");
 	// One is inheritance	
 		// create object and invoke method
 		LandingPage lp=new LandingPage(driver);
