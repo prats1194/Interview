@@ -15,8 +15,7 @@ public class Homepage extends initialize {
 	public void basepagenavigate() throws IOException, InterruptedException {
 		driver=initializedriver();
 		
-		driver.get("http://www.google.com/");
-		driver.get("http://www.qaclickacademy.com/");
+		driver.get("https://www.google.com");
 	// One is inheritance	
 		// create object and invoke method
 		LandingPage lp=new LandingPage(driver);
