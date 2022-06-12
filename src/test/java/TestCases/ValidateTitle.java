@@ -16,6 +16,12 @@ public class ValidateTitle extends initialize {
 	public void basepagenavigate() throws IOException, InterruptedException {
 		driver=initializedriver();
 		driver.get("http://www.qaclickacademy.com/");
+		driver.findElement(By.xpath("abc")).sendKeys("1234");
+		driver.findElement(By.xpath("xyz")).sendKeys("1234");
+		driver.findElement(By.xpath("lmn")).sendKeys("1234");
+		driver.findElement(By.xpath("pqr")).sendKeys("1234");
+
+		
 	// One is inheritance	
 		// create object and invoke method
 	
